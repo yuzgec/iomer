@@ -2,8 +2,7 @@
     <div class="owl-stage-outer">
         <div class="owl-stage">
 
-            <!-- Carousel Slide 1 -->
-            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=1); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(/banner-1.jpg); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-10 text-center">
@@ -29,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=3); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(/banner-2.jpg); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-10 text-center">
@@ -55,9 +54,7 @@
                     </div>
                 </div>
             </div>
-
-              <!-- Carousel Slide 1 -->
-              <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=1); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(/banner-1.jpg); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-10 text-center">
@@ -83,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=2); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(/banner-2.jpg); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
                         <div class="col-lg-10 text-center">
