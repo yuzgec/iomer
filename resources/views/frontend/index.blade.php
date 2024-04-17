@@ -12,7 +12,7 @@
                         <img
                             src="{{ (!$item->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $item->getFirstMediaUrl('page','thumb')}}"
                             class="img-fluid"
-                            alt="{{ $item->title}} - İomer Atık">
+                            alt="{{ $item->title}} - İomer Atık Yönetimi">
                         <span class="thumb-info-title">
                             <span class="thumb-info-slide-info-hover-1">
                                 <span class="thumb-info-inner text-1 text-uppercase">{{ $item->title}}</span>
@@ -31,9 +31,9 @@
             <div class="col-sm-9 col-lg-9">
                 <div class="call-to-action-content">
                     <h3>İomer Atık Yönetimi - 
-                        <strong class="font-weight-extra-bold">Slogan Gelebilir!</strong>
+                        <strong class="font-weight-extra-bold">Doğaya Saygı, Geleceğe Yatırım</strong>
                     </h3>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, temporibus. Quas, cum recusandae. </p>
+                    <p class="mb-0">Doğamızın sunduğu kaynakları korumak ve gelecek nesiller için yaşanabilir bir çevre bırakmak, öncelikli hedeflerimiz arasında yer alıyor.</p>
                 </div>
             </div>
             <div class="col-sm-3 col-lg-3">
@@ -41,7 +41,7 @@
                     <a
                         href="{{ route('contactus')}}"
                         target="_blank"
-                        class="btn btn-modern text-2 btn-danger">İletişime Geç</a>
+                        class="btn btn-modern text-2 btn-secondary">İletişime Geç</a>
                     <span
                         class="arrow hlb d-none d-md-block appear-animation animated rotateInUpLeft appear-animation-visible"
                         data-appear-animation="rotateInUpLeft"
@@ -141,27 +141,27 @@
                     <div class="card-header" id="collapse100HeadingOne">
                         <h4 class="card-title m-0">
                             <a class="accordion-toggle text-white font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100One" aria-expanded="false" aria-controls="collapse100One">
-                                1 - Tristique sit amet condim vel?
+                                1 - İomer Atık Yönetimi hangi hizmetleri sunmaktadır?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse100One" class="collapse" aria-labelledby="collapse100HeadingOne" data-bs-parent="#accordion100" style="">
                         <div class="card-body">
-                            <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
-                        </div>
+                            <p class="mb-0"></p>
+                         </div>
                     </div>
                 </div>
                 <div class="card card-default">
                     <div class="card-header" id="collapse100HeadingTwo">
                         <h4 class="card-title m-0">
                             <a class="accordion-toggle text-white font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100Two" aria-expanded="false" aria-controls="collapse100Two">
-                                2 - Cras a elit sit amet leo accumsan?
+                                2 - Firmanızın geri dönüşüm süreçleri nasıl işliyor?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse100Two" class="collapse" aria-labelledby="collapse100HeadingTwo" data-bs-parent="#accordion100" style="">
                         <div class="card-body">
-                            <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                 </div>
@@ -169,13 +169,13 @@
                     <div class="card-header" id="collapse100HeadingThree">
                         <h4 class="card-title m-0">
                             <a class="accordion-toggle text-white font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100Three" aria-expanded="false" aria-controls="collapse100Three">
-                                3 - Hel officitur felis ultricis nan?
+                                3 - İomer Atık, hangi endüstrilere hizmet vermektedir?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse100Three" class="collapse" aria-labelledby="collapse100HeadingThree" data-bs-parent="#accordion100">
                         <div class="card-body">
-                            <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                 </div>
@@ -183,13 +183,13 @@
                     <div class="card-header" id="collapse100HeadingFour">
                         <h4 class="card-title m-0">
                             <a class="accordion-toggle text-white font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100Four" aria-expanded="false" aria-controls="collapse100Four">
-                                4 - Wuspaisse hendreirit vehicula leo?
+                                4 - Atık yönetimi süreçlerinizde çevresel etkiyi nasıl minimize ediyorsunuz?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse100Four" class="collapse" aria-labelledby="collapse100HeadingFour" data-bs-parent="#accordion100">
                         <div class="card-body">
-                            <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                 </div>
@@ -197,13 +197,13 @@
                     <div class="card-header" id="collapse100HeadingFive">
                         <h4 class="card-title m-0">
                             <a class="accordion-toggle text-white font-weight-bold collapsed" data-bs-toggle="collapse" data-bs-target="#collapse100Five" aria-expanded="false" aria-controls="collapse100Five">
-                                5 - Lintegers aliquet ullamcorper dollor, quis sollic tudin?
+                                5 - İomer Atık, atık yönetimi konusunda hangi sertifikalara sahiptir?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse100Five" class="collapse" aria-labelledby="collapse1HeadingFive" data-bs-parent="#accordion100">
                         <div class="card-body">
-                            <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                            <p class="mb-0"></p>
                         </div>
                     </div>
                 </div>
