@@ -30,6 +30,10 @@ style="background-image: url(img/page-header/page-header-about-us.jpg);">
                 </div>
             @endforeach
 
+            <div class="mb-4 mt-4">    
+                {!! $Reference->desc !!}
+            </div>   
+
     </div>
 
 </div>

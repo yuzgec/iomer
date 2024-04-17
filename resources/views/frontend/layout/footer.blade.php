@@ -5,7 +5,6 @@
                 <a href="{{ route('home')}}" class="logo pe-0 pe-lg-3">
                     <img alt="{{ __('site.firmaadi')}}" src="/logo.png" class="opacity-7 bottom-4" height="75">
                 </a>
-                <p class="mt-2 mb-2">İomer Atık Yönetimi ve İlaç Sanayi Ticaret Limited Şirketi olarak Türkiye’nin lokomotifi olan bir çok firmayla İmalat, Montaj, De Montaj, Bakım, Revizyon, İzolasyon ve Endüstriyel Temizlik konularında hizmet vererek çalışmaktayız.
 
                 </p>
             </div>
