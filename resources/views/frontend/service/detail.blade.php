@@ -23,6 +23,9 @@
     <div class="row">
         <div class="col-lg-8 order-lg-2 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" style="animation-delay: 500ms;">
             <img src="{{ (!$Detay->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $Detay->getFirstMediaUrl('page','img')}}" alt="İomer Atık - {{ $Detay->title}}" class="img-fluid mb-4">
+            <div class="mb-4">    
+                {!! $Detay->desc !!}
+            </div>    
        </div>
         <div class="col-lg-4 order-lg-1 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250" style="animation-delay: 250ms;">
             <div class="card box-shadow-1 custom-border-radius-1 mb-5">
