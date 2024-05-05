@@ -23,11 +23,13 @@ style="background-image: url(img/page-header/page-header-about-us.jpg);">
     <div class="row">
 
         <div class="lightbox mb-4" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}}">
-            @foreach ($Reference->getMedia('gallery') as $item)
-            <a class="img-thumbnail img-thumbnail-no-borders d-inline-block mb-1 me-1" href="{{ $item->getUrl() }}" title="İomer Atık Yönetimi">
-                <img class="img-fluid" src="{{ $item->getUrl() }}" width="300" height="500" alt="İomer Atık Yönetimi">
-            </a>
-            @endforeach
+            <div class="masonry row g-0" data-plugin-masonry="" data-plugin-options="{'itemSelector': '.masonry-item'}">
+                @foreach ($Reference->getMedia('gallery') as $item)
+                    <a class="masonry-item  no-default-style col-sm-3" href="{{ $item->getUrl('watermark') }}" title="İomer Atık Yönetimi">
+                        <img class="img-fluid" src="{{ $item->getUrl('thumb') }}"  alt="İomer Atık Yönetimi">
+                    </a>
+                @endforeach
+            </div>
         </div>
 
     </div>

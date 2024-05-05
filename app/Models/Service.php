@@ -31,6 +31,7 @@ class Service extends Model implements HasMedia,TranslatableContract,Viewable
 
     public function registerMediaConversions(Media $media = null): void
     {
+      
         $this->addMediaConversion('img')->width(1000)->nonOptimized();
         $this->addMediaConversion('thumb')->width(500)->nonOptimized();
         $this->addMediaConversion('small')->width(150)->nonOptimized();
